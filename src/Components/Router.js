@@ -1,11 +1,15 @@
 import React from "react";
-import {HashRouter as Router} from "react-router-dom";
+import {HashRouter as Router, Switch} from "react-router-dom";
 import Home from "Routes/Home";
+import Header from "Components/Header";
 
 export default () => {
     <Router>
      <>
-        <Route path="/" component={Home} />
+        <Header/>
+        <Switch>
+            
+        </Switch>
      </>
     </Router>
 }
